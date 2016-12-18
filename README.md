@@ -8,6 +8,7 @@ $ docker-compose up
 $ docker-compose exec rails bash
 root:/app# rails db:create
 ```
+go to [localhost](localhost:3000)
 
 ## how to setup rails
 ### build docker images
