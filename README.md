@@ -10,34 +10,34 @@ root:/app# rails db:create
 ```
 go to [localhost](http://localhost:3000/)
 
-## how to setup rails
+## how to
 ### build docker images
 ```
 $ sh build-docker.sh 
 ```
 
-## run dorcker container
+### run dorcker container
 ```
 $ sh run-docker.sh
 ```
 
-## start rails
+### start rails
 ```
 $ docker-compose up
 ```
 
-### requirements
+#### requirements
 ```
 $ docker-compose exec rails bash
 root:/app# rails db:create
 ```
 
-## stop rails
+### stop rails
 ```
 $ docker-compose stop
 ```
 
-## rm docker container
+### rm docker container
 ```
 $ docker-compose rm
 ```
